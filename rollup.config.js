@@ -6,7 +6,7 @@ export default [
     input: "src/single-spa-react.js",
     output: {
       file: "lib/single-spa-react.js",
-      format: "umd",
+      format: "cjs",
       name: "singleSpaReact",
       sourcemap: true,
     },
@@ -16,7 +16,7 @@ export default [
     input: "src/parcel.js",
     output: {
       file: "parcel/index.js",
-      format: "umd",
+      format: "cjs",
       name: "Parcel",
       sourcemap: true,
       globals: {
